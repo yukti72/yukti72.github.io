@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Work for Innovation", "Provide Seed productions", "Building Export services"],
+        strings: ["Work for Innovation", "Provide Seed Production", " are building Export services"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
