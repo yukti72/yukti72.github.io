@@ -230,7 +230,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Drop by a message!</div>
-                    <form action="#">
+                    <form action="contact.php">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
