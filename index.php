@@ -233,25 +233,25 @@
                     <form action="contact.php">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name='UName' placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name='Email' placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Phone No." required>
+                            <input type="text" name='' placeholder="Phone No." required>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name='Subject' placeholder="Subject" required>
                         </div>
                         
-                        <div class="field textarea">
+                        <div class="field textarea" name='msg'>
                             <!-- Due to more textarea, I got an error so I changed the tag name of this textarea into changeit. -->
                             <textarea placeholder="Message..." id="" cols="5" rows="5"></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Send message</button>
+                            <button type="submit" name='btn-send'>Send message</button>
                         </div>
                     </form>
                 </div>
