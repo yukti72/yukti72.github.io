@@ -17,7 +17,7 @@
        }
        else
        {
-           $to = "admin@onlineittuts.com";
+           $to = "yukti.singh2019@vitbhopal.ac.in";
            $headers="From:$email_from\r\n";
            $headers .="Reply-To:$Email\r\n";
 
@@ -27,8 +27,5 @@
            }
        }
     }
-    else
-    {
-        header("Location:index.php");
-    }
+   
 ?>
